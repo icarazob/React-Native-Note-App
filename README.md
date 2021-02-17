@@ -61,6 +61,21 @@ be sure if you connected with a device on debugging mode or use the emulator on 
     <img src='https://github.com/aahmadhadi/React-Native-Note-App/blob/master/src/Assets/DummyData/updatenote.gif?raw=true' width=150 />
 <p>Insert Delete Category</p>
     <img src='https://github.com/aahmadhadi/React-Native-Note-App/blob/master/src/Assets/DummyData/insertdeletecategory.gif?raw=true' width=150 />
+    
+Knows Issues:
+
+Maximum-call-stack-size-exceeded-on-npm-install:
+
+    - npm cache clean --force
+    - npm rebuild
+    
+    If not enough: 
+
+    Try removing package-lock.json and the node_modules folder:
+
+    rm package-lock.json
+    rm -r node_modules
+
 
 
 ## Authors
